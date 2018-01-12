@@ -17,28 +17,20 @@
 </thead>
 <tbody>
 <tr>
-<td><code>data.py</code></td>
-<td>Methods related to data augmentation, preprocessing and batching.</td>
+<td><code>DNN_drive_model.py</code></td>
+<td>Builds and trains the CNN with data augmentation and batching of the training data.</td>
 </tr>
 <tr>
-<td><code>model.py</code></td>
-<td>Implements model architecture and runs the training pipeline.</td>
-</tr>
-<tr>
-<td><code>model.json</code></td>
-<td>JSON file containing model architecture in a format Keras understands.</td>
+<td><code>drive.py</code></td>
+<td>Runs a given CNN to control autonomous car in simulator.</td>
 </tr>
 <tr>
 <td><code>model.h5</code></td>
 <td>Model weights.</td>
 </tr>
 <tr>
-<td><code>weights_logger_callback.py</code></td>
-<td>Implements a Keras callback that keeps track of model weights throughout training.</td>
-</tr>
-<tr>
-<td><code>drive.py</code></td>
-<td>Implements driving simulator callbacks, essentially communicates with the driving simulator app providing model predictions based on real-time data simulator app is sending.</td>
+<td><code>video.py</code></td>
+<td>Creates a video based on images found in the output directory produced by running <code>drive.py</code></td>
 </tr>
 </tbody>
 </table>
