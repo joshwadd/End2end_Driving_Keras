@@ -43,8 +43,7 @@ The Udacity Self-Driving Car simulator was used for acquiring training data sets
 | `drive.py`                   | Implements a given CNN to control autonomous car in simulator. Communicates in real time with the simulator receiving current camera image and telemetry data, received data is then used by the CNN to generate model predictions for required control signal to send.                    |
 | `model.h5`                 | Model weights saved in Hierarchical Data Format format  containing model architecture Keras understands.             |
 | `video.py`                   | Model weights.                                                                     |
-| `weights_logger_callback.py` | Implements a Keras callback that keeps track of model weights throughout training. |
-| `drive.py`                   | Implements driving simulator callbacks, essentially communicates with the driving simulator app providing model predictions based on real-time data simulator app is sending. |
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDYxNTAwNiwtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbLTEwNDkxMzkyOTksLTEwNDgwODE0OV19
 -->
