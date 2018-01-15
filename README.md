@@ -8,7 +8,7 @@ In this project, I use convolutional deep neural networks to clone driving behav
 The Udacity Self-Driving Car simulator was used for acquiring training data sets of human driving behavior around test tracks. The convolutional neural network was then trained to map input images to steering angles as a regression problem. Once the model has learnt these mappings arising from human behavior it can be used to generate new steering angles online to control the autonomous vehicle in the simulator.
 ## Project Files
 
-
+The 
 
 
 
@@ -20,5 +20,5 @@ The Udacity Self-Driving Car simulator was used for acquiring training data sets
 | `video.py`                   | Creates a video based on images found in the output directory produced by running `drive.py`                                                                     |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzMzNDA4MzMsLTEwNDgwODE0OV19
+eyJoaXN0b3J5IjpbLTE1MTQ3MDAyNzQsLTEwNDgwODE0OV19
 -->
