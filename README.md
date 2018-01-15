@@ -19,6 +19,7 @@ The workflow for building, testing and training the model is composed of followi
 | `model.h5`                 | Model weights saved in Hierarchical Data Format format  containing model architecture Keras understands.             |
 | `video.py`                   | Creates a video based on images found in the output directory produced by running `drive.py`                                                                     |
 
+## Data Collection, Augmentation, Preprocessing
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NjA3NzMyMCwtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbOTQ3NjUzNDk2LC0xMDQ4MDgxNDldfQ==
 -->
