@@ -20,6 +20,8 @@ The workflow for building, testing and training the model is composed of followi
 | `video.py`                   | Creates a video based on images found in the output directory produced by running `drive.py`                                                                     |
 
 ## Data Collection, Augmentation and Preprocessing
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDM3MzEzOSwtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbLTE3ODYzMjE5NzUsLTEwNDgwODE0OV19
 -->
