@@ -42,8 +42,8 @@ The Udacity Self-Driving Car simulator was used for acquiring training data sets
 | `DNN_drive_model.py`                    | Builds and trains the CNN with data augmentation and batching of the training data.                  |
 | `drive.py`                   | Implements a given CNN to control autonomous car in simulator. Communicates in real time with the simulator receiving current camera image and telemetry data, received data is then used by the CNN to generate model predictions for required control signal to send.                    |
 | `model.h5`                 | Model weights saved in Hierarchical Data Format format  containing model architecture Keras understands.             |
-| `video.py`                   | Model weights.                                                                     |
+| `video.py`                   | Creates a video based on images found in the output directory produced by running `drive.py`                                                                     |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDkxMzkyOTksLTEwNDgwODE0OV19
+eyJoaXN0b3J5IjpbLTEyNDMyMjE2MDEsLTEwNDgwODE0OV19
 -->
