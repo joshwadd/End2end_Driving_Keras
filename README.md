@@ -35,9 +35,11 @@ The car is equipped with three front facing cameras recording images from the le
 
 #### Telemetry 
 
-Telemetry and control data of the human driving data is recorded at each time step via feature vector with each component representing
+Telemetry and control data of the human driving data is recorded at each time step
 
-Steering angle 
+Steering angle , throttle, break and speed
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDExMjczODcsLTEwNDgwODE0OV19
+eyJoaXN0b3J5IjpbLTE3NTEwNDk4OSwtMTA0ODA4MTQ5XX0=
 -->
