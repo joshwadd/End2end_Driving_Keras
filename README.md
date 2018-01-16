@@ -35,11 +35,13 @@ The car is equipped with three front facing cameras recording images from the le
 
 #### Telemetry 
 
-Telemetry and control data of the human driving data is recorded at each time step
+The following telemetry and control data of the human driving data is recorded at each time step
 
-Steering angle , throttle, break and speed
-
+Steering angle : Single scale variable between 0 - 1
+Throttle :
+Break :
+Speed :
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTEwNDk4OSwtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbLTQwMjU0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
