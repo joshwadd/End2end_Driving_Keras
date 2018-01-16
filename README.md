@@ -26,7 +26,9 @@ The Udacity simulator contains two separate tracks that differ in both difficult
 ### Data collection mode :
  When running the car in training mode, a human driver controls the car driving around the track. This human driving behaviour is captured by the simulator and saved to disk as a time series comprising of the following components at each time step.
 
-#### 
+#### Front Facing Camera Images
+
+T
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2ODkzMjU1MywtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbLTExOTMxODk1MTksLTEwNDgwODE0OV19
 -->
