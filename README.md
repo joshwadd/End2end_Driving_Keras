@@ -35,7 +35,7 @@ The car is equipped with three front facing cameras recording images from the le
 
 #### Telemetry 
 
-Telemetry and control data of the human driving data is recorded at each time
+Telemetry and control data of the human driving data is recorded at each time step 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4NTIwMjM4LC0xMDQ4MDgxNDldfQ==
+eyJoaXN0b3J5IjpbLTE1NDg0ODE5MjYsLTEwNDgwODE0OV19
 -->
