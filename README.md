@@ -35,7 +35,7 @@ The car is equipped with three front facing cameras recording images from the le
 
 #### Telemetry 
 
-Telemetry and controls of the
+Telemetry and controls 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk0MDc3MjEwLC0xMDQ4MDgxNDldfQ==
+eyJoaXN0b3J5IjpbLTE3MjY3OTE5OTgsLTEwNDgwODE0OV19
 -->
