@@ -24,7 +24,7 @@ The workflow for building, testing and training the model is composed of followi
 The Udacity simulator contains two separate tracks that differ in both difficulty and visual properties of the environment. On both tracks the simulated autonomous car can be operated in either training mode for data collection, or autnomous mode with the CNN generating control signals in real time.
 
 ### Data collection mode :
- When running the car in training mode, a human driver controls the car driving around the track. This human driving behaviour is captured by the simulator and saved to disk as a time series compri
+ When running the car in training mode, a human driver controls the car driving around the track. This human driving behaviour is captured by the simulator and saved to disk as a time series comprising of the following components at each time step.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzc1NjM4NiwtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbMjE0MjE2NzY4MSwtMTA0ODA4MTQ5XX0=
 -->
