@@ -21,7 +21,7 @@ The workflow for building, testing and training the model is composed of followi
 
 ## Data Collection, Augmentation and Preprocessing
 
-The Udacity simulator contains two separate tracks that differ in both difficulty and visual properties of the environment.  For both tracks the car can be operated in either data collection mode or autonomous control modes
+The Udacity simulator contains two separate tracks that differ in both difficulty and visual properties of the environment.  For both tracks the car can be operated in either data collection mode or autonomous control modes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODkwODU2NDcsLTEwNDgwODE0OV19
+eyJoaXN0b3J5IjpbMTk0MzkxMTEyNSwtMTA0ODA4MTQ5XX0=
 -->
