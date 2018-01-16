@@ -21,7 +21,7 @@ The workflow for building, testing and training the model is composed of followi
 
 ## Data Collection, Augmentation and Preprocessing
 
-The Udacity simulator contains two separate tracks that differ in both difficulty and visual properties of th
+The Udacity simulator contains two separate tracks that differ in both difficulty and visual properties of the tack
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NDA0OTQ2LC0xMDQ4MDgxNDldfQ==
+eyJoaXN0b3J5IjpbMjA2Mzc2MzE4LC0xMDQ4MDgxNDldfQ==
 -->
