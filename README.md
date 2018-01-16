@@ -28,7 +28,7 @@ The Udacity simulator contains two separate tracks that differ in both difficult
 
 #### Front Facing Camera Images
 
-The car is equipped with three front facing cameras recording images from the left
+The car is equipped with three front facing cameras recording images from the left, center
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzE3MzY4NDcsLTEwNDgwODE0OV19
+eyJoaXN0b3J5IjpbMzIwMDU5MzM2LC0xMDQ4MDgxNDldfQ==
 -->
