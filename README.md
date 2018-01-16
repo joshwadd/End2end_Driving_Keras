@@ -30,8 +30,10 @@ The Udacity simulator contains two separate tracks that differ in both difficult
 
 The car is equipped with three front facing cameras recording images from the left, centre and right views of the front driving view of the car at each time-step. 
 
+
 <img src="https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/left.jpg?raw=true" width="250"/> <img src="https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/Centre.jpg?raw=true" width="250"/> <img src="https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/right.jpg?raw=true" width="250"/>
 
+#### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4OTMyMTQyOSwtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbMzM5NTg4NjQzLC0xMDQ4MDgxNDldfQ==
 -->
