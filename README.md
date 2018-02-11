@@ -185,7 +185,7 @@ The car manages to drive perfectly on the track and rarely deviates from the mid
 [Video Link](https://youtu.be/-Ju_xeOW2VAe)
 
 
-This project shows simple  deep convolutional architecture are capable  of end to end learning to drive an autonomous vehicles.
+This project shows simple  deep convolutional architecture are capable  of end to end learning to drive an autonomous vehicles. Driving a car is inherently a temporal process and therefore the use of a simple feed-forward network
 
 
 
@@ -193,6 +193,6 @@ This project shows simple  deep convolutional architecture are capable  of end t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM2MjEzODUxLDMzMDM0NTI2OCwtNDAyNT
-QxNjIyLC0xMDQ4MDgxNDldfQ==
+eyJoaXN0b3J5IjpbLTEzNTU5NTE5NzgsMzMwMzQ1MjY4LC00MD
+I1NDE2MjIsLTEwNDgwODE0OV19
 -->
