@@ -145,6 +145,7 @@ The structure of the network is listed below along with the implementation of th
 - Fully connected: neurons:  50, activation: ELU
 - Fully connected: neurons:  10, activation: ELU
 - Fully connected: neurons:   1 (output)
+1
 
 
 
@@ -153,6 +154,6 @@ The structure of the network is listed below along with the implementation of th
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2OTA2NDg0LDMzMDM0NTI2OCwtNDAyNT
-QxNjIyLC0xMDQ4MDgxNDldfQ==
+eyJoaXN0b3J5IjpbMTI1OTYxMjc3MywzMzAzNDUyNjgsLTQwMj
+U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
