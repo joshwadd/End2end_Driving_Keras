@@ -109,12 +109,12 @@ def translate_image(image, steering_angle, x_range, y_range):
 
 ## # Preprocessing
 
-Each image is cropped b
+Each image is cropped before 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQ4Nzc3NzUsMzMwMzQ1MjY4LC00MD
-I1NDE2MjIsLTEwNDgwODE0OV19
+eyJoaXN0b3J5IjpbLTEzNzU2NDc1MCwzMzAzNDUyNjgsLTQwMj
+U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
