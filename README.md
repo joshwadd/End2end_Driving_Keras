@@ -32,12 +32,12 @@ The car is equipped with three front facing cameras recording images from the le
 <img src="https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/left.jpg?raw=true" width="250"/> <img src="https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/Centre.jpg?raw=true" width="250"/> <img src="https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/right.jpg?raw=true" width="250"/>
 
 
-Once this data has been collected from the driving simulator, the camera images are used as an input to the model which attempts to predict the steering angle for the corresponding input in the range [-1, 1].
+Once this data has been collected from the driving simulator, the camera images are used as an input to the deep learning model which attempts to predict the steering angle for the corresponding input in the range [-1, 1].
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMjgwMjkwNiwtNDAyNTQxNjIyLC0xMD
-Q4MDgxNDldfQ==
+eyJoaXN0b3J5IjpbLTE2NjAzMTkyMjAsLTQwMjU0MTYyMiwtMT
+A0ODA4MTQ5XX0=
 -->
