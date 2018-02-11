@@ -61,7 +61,7 @@ def choose_camera(center, left, right, steering_angle):
 ```
 
 * **Horzontial Flip**
-Randomly flipping the image along the center and changing the steering angle increases the
+Randomly flipping the half image along the center and changing the steering angle increases the
 
 
 
@@ -69,6 +69,6 @@ Randomly flipping the image along the center and changing the steering angle inc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDA2MjkwNSwzMzAzNDUyNjgsLTQwMj
+eyJoaXN0b3J5IjpbMTYyMjY1NTY2NiwzMzAzNDUyNjgsLTQwMj
 U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
