@@ -114,7 +114,7 @@ The example results of applying this data augmentation pipeline to the three fro
 
 ![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/aug2.png?raw=true)
 
-![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/aug1.png?raw=true)
+![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/aug3.png?raw=true)
 
 ### Preprocessing
 
@@ -126,6 +126,6 @@ Each image is cropped before it is fed into the network, removing information th
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MTYyMTkwLDMzMDM0NTI2OCwtNDAyNT
+eyJoaXN0b3J5IjpbLTIwNDU2NzUyLDMzMDM0NTI2OCwtNDAyNT
 QxNjIyLC0xMDQ4MDgxNDldfQ==
 -->
