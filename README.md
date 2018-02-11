@@ -44,10 +44,10 @@ The dataset I collected from driving in the simulator contained a total of **235
 
 ## Data Augmentation and Preprocessing
 
-To prevent the 
+To prevent the Co
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNjk4NTI0OSwtNDAyNTQxNjIyLC0xMD
-Q4MDgxNDldfQ==
+eyJoaXN0b3J5IjpbLTE0MTA1NjIyMTksLTQwMjU0MTYyMiwtMT
+A0ODA4MTQ5XX0=
 -->
