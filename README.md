@@ -128,7 +128,7 @@ Each image is cropped before it is fed into the network, removing information th
 
 The Deep learning model used was based around the architecture reported by Nvidia in their [seminal end to end driving paper](https://arxiv.org/pdf/1604.07316.pdf).
 
-The model architecture show very familiar standard structure for convolutional networks. The rational being the convolutional layers in the first half of the network would learn the optimal feature extraction for the images, with the fully connected layers at the end then learning how to control the car. However in practice the disconnection between the convoluti
+The model architecture show very familiar standard structure for convolutional networks. The rational being the convolutional layers in the first half of the network would learn the optimal feature extraction for the images, with the fully connected layers at the end then learning how to control the car. However in practice the disconnection between the convolutional lay
 
 
 
@@ -136,6 +136,6 @@ The model architecture show very familiar standard structure for convolutional n
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NDA3MjA1MCwzMzAzNDUyNjgsLTQwMj
-U0MTYyMiwtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbNzA0ODc0ODUyLDMzMDM0NTI2OCwtNDAyNT
+QxNjIyLC0xMDQ4MDgxNDldfQ==
 -->
