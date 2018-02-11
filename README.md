@@ -185,7 +185,7 @@ The car manages to drive perfectly on the track and rarely deviates from the mid
 [Video Link](https://youtu.be/-Ju_xeOW2VAe)
 
 
-This Deep learning approach proves that end 
+This project shows simple convolutional architecture proves that end to end learning is possible for autonomous vehicles.
 
 
 
@@ -193,6 +193,6 @@ This Deep learning approach proves that end
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2OTY2MDM2NSwzMzAzNDUyNjgsLTQwMj
-U0MTYyMiwtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbLTE4NjQ0NTk3NzMsMzMwMzQ1MjY4LC00MD
+I1NDE2MjIsLTEwNDgwODE0OV19
 -->
