@@ -180,7 +180,7 @@ This model was trained on a batch size of 64 using Adam with a learning rate of 
 
 ## Results
 
-![png](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Cover_image.png?raw=true)](https://youtu.be/-Ju_xeOW2VA)
+[![png](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Cover_image.png?raw=true)](https://youtu.be/-Ju_xeOW2VA)
 [Video Link](https://youtu.be/-Ju_xeOW2VAe)
 
 
@@ -192,6 +192,6 @@ The
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDM1ODAyODAsMzMwMzQ1MjY4LC00MD
-I1NDE2MjIsLTEwNDgwODE0OV19
+eyJoaXN0b3J5IjpbMTIwOTkxMDA4NywzMzAzNDUyNjgsLTQwMj
+U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
