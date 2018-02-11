@@ -34,10 +34,12 @@ The car is equipped with three front facing cameras recording images from the le
 
 Once this data has been collected from the driving simulator, the camera images are used as an input to the deep learning model which attempts to predict the steering angle for the corresponding input in the range [-1, 1].
 
+The tactics for collecting the
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjAzMTkyMjAsLTQwMjU0MTYyMiwtMT
-A0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbLTMwOTcyNjAyOCwtNDAyNTQxNjIyLC0xMD
+Q4MDgxNDldfQ==
 -->
