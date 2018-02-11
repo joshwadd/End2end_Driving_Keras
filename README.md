@@ -124,7 +124,9 @@ Each image is cropped before it is fed into the network, removing information th
 
 
 
-## Model
+## Convolution Neural Network Model 
+
+The Deep learning model used
 
 
 
@@ -132,6 +134,6 @@ Each image is cropped before it is fed into the network, removing information th
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQxNDU3MDYsMzMwMzQ1MjY4LC00MD
-I1NDE2MjIsLTEwNDgwODE0OV19
+eyJoaXN0b3J5IjpbMTk3MzgxNjY0OCwzMzAzNDUyNjgsLTQwMj
+U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
