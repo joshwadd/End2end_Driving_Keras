@@ -97,7 +97,7 @@ ef add_shadow(image):
 ```
 
 
-* *
+* **Tr
 
 
 
@@ -105,6 +105,6 @@ ef add_shadow(image):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDYwNzgzNjMsMzMwMzQ1MjY4LC00MD
+eyJoaXN0b3J5IjpbLTE0MTAzMjQ4MTcsMzMwMzQ1MjY4LC00MD
 I1NDE2MjIsLTEwNDgwODE0OV19
 -->
