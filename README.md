@@ -128,7 +128,7 @@ Each image is cropped before it is fed into the network, removing information th
 
 The Deep learning model used was based around the architecture reported by Nvidia in their [seminal end to end driving paper](https://arxiv.org/pdf/1604.07316.pdf).
 
-The model architecture show very familiar standard structure for convoltional networks.
+The model architecture show very familiar standard structure for convolutional networks. The rational being the convolutional layers in the first half of the network would learn the feature extraction
 
 
 
@@ -136,6 +136,6 @@ The model architecture show very familiar standard structure for convoltional ne
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NzYwODM2NSwzMzAzNDUyNjgsLTQwMj
+eyJoaXN0b3J5IjpbLTk3ODkzNDgyMiwzMzAzNDUyNjgsLTQwMj
 U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
