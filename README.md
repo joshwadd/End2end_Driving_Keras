@@ -47,7 +47,9 @@ The dataset I collected from driving in the simulator contained a total of **235
 To prevent the CNN architecture from over-fitting to the training data set and to increase the ability of the model to generalise well to driving encounters it hasn't seen in the training set, a set of data augmentation techniques were used to extend the data-set.
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY1NzgxODQxLC00MDI1NDE2MjIsLTEwND
-gwODE0OV19
+eyJoaXN0b3J5IjpbLTEwNjI1NDI5MzEsLTQwMjU0MTYyMiwtMT
+A0ODA4MTQ5XX0=
 -->
