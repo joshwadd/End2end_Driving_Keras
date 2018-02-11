@@ -32,12 +32,12 @@ The car is equipped with three front facing cameras recording images from the le
 <img src="https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/left.jpg?raw=true" width="250"/> <img src="https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/Centre.jpg?raw=true" width="250"/> <img src="https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/right.jpg?raw=true" width="250"/>
 
 
-Once this data has been collected from the driving simulator, the camera inputs are used as a in
+Once this data has been collected from the driving simulator, the camera inputs are used as an in
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODMyNDU3NTYsLTQwMjU0MTYyMiwtMT
-A0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbLTQ5MDQyMzEwMCwtNDAyNTQxNjIyLC0xMD
+Q4MDgxNDldfQ==
 -->
