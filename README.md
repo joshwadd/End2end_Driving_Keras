@@ -118,7 +118,7 @@ The example results of applying this data augmentation pipeline to the three fro
 
 ### Preprocessing
 
-Each image is cropped before it is fed into the network, removing information that is not useful for steering the car. This is namly the top of the image containing the sky and horizon, and the bottom of the image containing the car itself. The input images were normalized to be in the range of [-1, 1] as to assite the training proce
+Each image is cropped before it is fed into the network, removing information that is not useful for steering the car. This is namly the top of the image containing the sky and horizon, and the bottom of the image containing the car itself. The input images were normalized to be in the range of [-1, 1] as to assite the training procdiu
 
 ## Model
 
@@ -128,6 +128,6 @@ Each image is cropped before it is fed into the network, removing information th
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgwMDYzMDk3LDMzMDM0NTI2OCwtNDAyNT
-QxNjIyLC0xMDQ4MDgxNDldfQ==
+eyJoaXN0b3J5IjpbLTIwNzQyNDc0NDIsMzMwMzQ1MjY4LC00MD
+I1NDE2MjIsLTEwNDgwODE0OV19
 -->
