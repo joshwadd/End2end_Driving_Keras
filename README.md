@@ -60,7 +60,8 @@ def choose_camera(center, left, right, steering_angle):
     return mpimg.imread(center), steering_angle
 ```
 
-* **
+* **Horzontial Flip**
+
 
 
 
@@ -68,6 +69,6 @@ def choose_camera(center, left, right, steering_angle):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjM5NzQwMSwzMzAzNDUyNjgsLTQwMj
-U0MTYyMiwtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbNzc1NzYyMzIyLDMzMDM0NTI2OCwtNDAyNT
+QxNjIyLC0xMDQ4MDgxNDldfQ==
 -->
