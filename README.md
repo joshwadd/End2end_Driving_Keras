@@ -23,7 +23,7 @@ The workflow for building, testing and training the model is composed of followi
 
 The Udacity simulator contains two separate tracks that differ in both difficulty and visual properties of the environment. On both tracks the simulated autonomous car can be operated in either training mode for data collection, or autnomous mode with the CNN generating control signals in real time.
 
-### Data collection mode :
+### Data Collection :
  When running the car in training mode, a human driver controls the car driving around the track. This human driving behaviour is captured by the simulator and saved to disk as a time series comprising of the following components at each time step.
 
 The car is equipped with three front facing cameras recording images from the left, centre and right views of the front facing driving view of the car at each time-step.  The driving simulator then saves frames from the three cameras alongside various measurements of the driving behaviour such as **throttle**, **speed** and **steering angle**.
@@ -42,12 +42,12 @@ The dataset I collected from driving in the simulator contained a total of **235
 ![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/steering_distributions.png?raw=true")
 
 
-## Data Augmentation and Preprocessing
+### Data Augmentation :
 
 To prevent the CNN architecture from over-fitting to the training data set and to increase the ability of the model to generalise well to driving encounters it hasn't seen in the training set, a set of data augmentation techniques were used to extend the data-set.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTc4NTk2NCwtNDAyNTQxNjIyLC0xMD
-Q4MDgxNDldfQ==
+eyJoaXN0b3J5IjpbOTY1NzgxODQxLC00MDI1NDE2MjIsLTEwND
+gwODE0OV19
 -->
