@@ -174,7 +174,7 @@ model.add(Dense(10, activation='elu'))
 model.add(Dense(1))
 model.summary()
 ```
-This model was trained using Adam with a learning rate of 1e-4
+This model was trained using Adam with a learning rate of 1e-4 to optimize the MSE loss between the predicted and actual steering angle.
 
 
 
@@ -182,6 +182,6 @@ This model was trained using Adam with a learning rate of 1e-4
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzOTczMDYwMCwzMzAzNDUyNjgsLTQwMj
+eyJoaXN0b3J5IjpbMTQzNTg1MDc2MSwzMzAzNDUyNjgsLTQwMj
 U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
