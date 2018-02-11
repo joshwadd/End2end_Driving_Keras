@@ -126,7 +126,7 @@ Each image is cropped before it is fed into the network, removing information th
 
 ## Convolution Neural Network Model 
 
-The Deep learning model used was based around the architecture reported
+The Deep learning model used was based around the architecture reported by N
 
 
 
@@ -134,6 +134,6 @@ The Deep learning model used was based around the architecture reported
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzYwNTkyNzgsMzMwMzQ1MjY4LC00MD
-I1NDE2MjIsLTEwNDgwODE0OV19
+eyJoaXN0b3J5IjpbNjIyNjkwMTgxLDMzMDM0NTI2OCwtNDAyNT
+QxNjIyLC0xMDQ4MDgxNDldfQ==
 -->
