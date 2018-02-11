@@ -185,7 +185,7 @@ The car manages to drive perfectly on the track and rarely deviates from the mid
 [Video Link](https://youtu.be/-Ju_xeOW2VAe)
 
 
-This project shows simple  deep convolutional architecture are capable  of end to end learning to drive an autonomous vehicles. Driving a car is inherently a temporal process and therefore the use of a simple feed-forward network is not taking into account any temporal information. For this purpose I am currently exploring the use of combined CNN + RNN (Recurrentl neural network)
+This project shows simple  deep convolutional architecture are capable  of end to end learning to drive an autonomous vehicles. Driving a car is inherently a temporal process and therefore the use of a simple feed-forward network is not taking into account any temporal information. For this purpose I am currently exploring the use of combined CNN + RNN (Recurrent neural network)
 
 
 
@@ -193,6 +193,6 @@ This project shows simple  deep convolutional architecture are capable  of end t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTQwMzIwMiwzMzAzNDUyNjgsLTQwMj
+eyJoaXN0b3J5IjpbMTU4MzE4NDczMCwzMzAzNDUyNjgsLTQwMj
 U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
