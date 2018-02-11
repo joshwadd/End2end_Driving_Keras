@@ -116,7 +116,7 @@ The example results of applying this data augmentation pipeline to the three fro
 
 ![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/aug3.png?raw=true)
 
-The data augmentation pipeline was implemented as a generator function in python. Keras allows the use of generator functions to be used heterogeneous manner on the CPU whilst the computing gradients via propagation is performed on the GPU. The generator pipeline can be found in the `data.py` file in the `generator
+The data augmentation pipeline was implemented as a generator function in python. Keras allows the use of generator functions to be used heterogeneous manner on the CPU whilst the computing gradients via propagation is performed on the GPU. The generator pipeline can be found in the `data.py` file in the `generator()` function.
 
 ### Preprocessing
 
@@ -132,6 +132,6 @@ Each image is cropped before it is fed into the network, removing information th
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MjA4OTYwOSwzMzAzNDUyNjgsLTQwMj
-U0MTYyMiwtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbLTE5MzQxNDU3MDYsMzMwMzQ1MjY4LC00MD
+I1NDE2MjIsLTEwNDgwODE0OV19
 -->
