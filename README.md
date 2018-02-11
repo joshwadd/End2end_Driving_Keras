@@ -192,6 +192,6 @@ This project shows simple deep convolutional architectures are capable  of end t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMyMzU1NTgsMzMwMzQ1MjY4LC00MDI1ND
-E2MjIsLTEwNDgwODE0OV19
+eyJoaXN0b3J5IjpbLTE0NzE2OTgzMjUsNzMyMzU1NTgsLTQwMj
+U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
