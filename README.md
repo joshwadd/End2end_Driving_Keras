@@ -130,7 +130,8 @@ The Deep learning model used was based around the architecture reported by Nvidi
 
 The model architecture show very familiar standard structure for convolutional networks. The rational being the convolutional layers in the first half of the network would learn the optimal feature extraction for the images, with the fully connected layers at the end then learning how to control the car. However in practice this simplified disconnection between the convolutional and fully connected layers of the network is not realistic and there is normally much interdependence.
 
-The structure of the network is listed below along with the implementation of this network using the 
+The structure of the network is listed below along with the implementation of this network using the Keras model API.
+
 
 
 
@@ -138,6 +139,6 @@ The structure of the network is listed below along with the implementation of th
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUxMzkyMTQ3LDMzMDM0NTI2OCwtNDAyNT
-QxNjIyLC0xMDQ4MDgxNDldfQ==
+eyJoaXN0b3J5IjpbMTYyMDQ2NDM1MiwzMzAzNDUyNjgsLTQwMj
+U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
