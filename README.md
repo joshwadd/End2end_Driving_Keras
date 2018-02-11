@@ -97,7 +97,12 @@ ef add_shadow(image):
 ```
 
 
-* **Translate Image**
+* **Translate Image** : The image is randomly translated horizontally and vertically and the steering angle is then corrected for this.
+``` python
+
+
+```
+
 
 
 
@@ -105,6 +110,6 @@ ef add_shadow(image):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NTAxNzMwNiwzMzAzNDUyNjgsLTQwMj
-U0MTYyMiwtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbMjAzODMzNDYwLDMzMDM0NTI2OCwtNDAyNT
+QxNjIyLC0xMDQ4MDgxNDldfQ==
 -->
