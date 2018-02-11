@@ -145,7 +145,35 @@ The structure of the network is listed below along with the implementation of th
 - Fully connected: neurons:  50, activation: ELU
 - Fully connected: neurons:  10, activation: ELU
 - Fully connected: neurons:   1 (output)
-1
+
+``` python
+from keras.models import Sequential
+from keras.layers import Lambda, Conv2D, Dropout, Flatten, Dense, Cropping2D
+#from keras.layers.wrappers import  TimeDistributed
+#from keras.layers.recurrent import LSTM
+from keras import optimizers
+from keras.callbacks import ModelCheckpoint
+
+model = Sequential()
+##Nvidia CNN style model
+model.add(Lambda(lambda x: x/127.5 -1.0, input_shape=training_image_size) )
+model.add(Cropping2D(cropping=((50,20), (0,0))))
+model.add(Conv2D(24, (5, 5) , activation='elu', strides=(2,2), padding='valid'))
+model.add(Conv2D(36, (5, 5) , activation='elu', strides=(2,2), padding='valid'))
+model.add(Conv2D(48, (3, 3) , activation='elu', strides=(2,2), padding='valid'))
+model.add(Conv2D(64, (3, 3) , activation='elu'))
+model.add(Conv2D(64, (3, 3) , activation='elu'))
+model.add((Dropout(drop_prob)))
+model.add(Flatten())
+##Fully connected layers
+model.add(Dense(100, activation='elu'))
+model.add(Dropout(drop_prob))
+model.add(Dense(50, activation='elu'))
+model.add(Dropout(drop_prob))
+model.add(Dense(10, activation='elu'))
+model.add(Dense(1))
+model.summary()
+```
 
 
 
@@ -154,6 +182,6 @@ The structure of the network is listed below along with the implementation of th
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTYxMjc3MywzMzAzNDUyNjgsLTQwMj
+eyJoaXN0b3J5IjpbMTQwODUyNjkxMywzMzAzNDUyNjgsLTQwMj
 U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
