@@ -97,7 +97,7 @@ ef add_shadow(image):
 ```
 
 
-* **Translate Imag
+* **Translate Image**
 
 
 
@@ -105,6 +105,6 @@ ef add_shadow(image):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzkyNTM5MSwzMzAzNDUyNjgsLTQwMj
+eyJoaXN0b3J5IjpbLTU1NTAxNzMwNiwzMzAzNDUyNjgsLTQwMj
 U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
