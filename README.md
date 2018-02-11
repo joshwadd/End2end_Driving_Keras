@@ -34,11 +34,11 @@ The car is equipped with three front facing cameras recording images from the le
 
 Once this data has been collected from the driving simulator, the camera images are used as an input to the deep learning model which attempts to predict the steering angle for the corresponding input in the range [-1, 1].
 
-The tactics for collecting the data from the simulator was to first drive the car around the track in both clockwise and anti clockwise 10 times each, driving optimally in the centre of the road. After this additional laps were recorded by allowing the car to drive off centre into the roadside and then correcting this behaviour. Having such bad driving examples enriches the training data set to allow the mo
+The tactics for collecting the data from the simulator was to first drive the car around the track in both clockwise and anti clockwise 10 times each, driving optimally in the centre of the road. After this additional laps were recorded by allowing the car to drive off centre into the roadside and then correcting this behaviour. Having such bad driving examples enriches the training data set to allow the model to 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxMDI3NjMyLC00MDI1NDE2MjIsLTEwND
-gwODE0OV19
+eyJoaXN0b3J5IjpbLTIwNTg1MjE3MjAsLTQwMjU0MTYyMiwtMT
+A0ODA4MTQ5XX0=
 -->
