@@ -66,7 +66,6 @@ def flip_image(image, steering_angle):
     if np.random.rand() < 0.5:
         cv2.flip(image, 1)
         steering_angle = -steering_angle
-
     return image, steering_angle
 ```
 
@@ -75,13 +74,10 @@ def flip_image(image, steering_angle):
 ``` python
 ef add_shadow(image):
     h, w, d = image.shape
-
     [x1,x2] = np.random.choice(w,2, replace=False)
     y1 = 0
     y2 = h
-
     xm, ym = np.mgrid[0:h, 0:w]
-
     mask = np.zeros_like(image[:,:,1])
     mask[(ym - y1)*(x2 - x1) - (y2 - y1)*(xm - x1) > 0] = 1
 
@@ -93,14 +89,21 @@ ef add_shadow(image):
     hls = cv2.cvtColor(image, cv2.COLOR_RGB2HLS)
     hls[:, :, 1][cond] = hls[:, :, 1][cond] * s_ratio
     return cv2.cvtColor(hls, cv2.COLOR_HLS2RGB)
-
 ```
 
 
 * **Translate Image** : The image is randomly translated horizontally and vertically and the steering angle is then corrected for this.
 ``` python
+def translate_image(image, steering_angle, x_range, y_range):
 
+    translate_x = x_range * (np.random.rand() - 0.5)
+    translate_y = y_range * (np.random.rand() - 0.5)
 
+    steering_angle += translate_x*0.002 #add a small amount of noise
+    translation_matrix = np.float32([[1, 0, translate_x],[0, 1, translate_y]])
+    height, width, depth = image.shape
+    image = cv2.warpAffine(image, translation_matrix, (width, height))
+    return image, steering_angle
 ```
 
 
@@ -110,6 +113,6 @@ ef add_shadow(image):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODMzNDYwLDMzMDM0NTI2OCwtNDAyNT
-QxNjIyLC0xMDQ4MDgxNDldfQ==
+eyJoaXN0b3J5IjpbLTM2NjI1OTMyNywzMzAzNDUyNjgsLTQwMj
+U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
