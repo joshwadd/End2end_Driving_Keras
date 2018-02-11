@@ -128,6 +128,8 @@ Each image is cropped before it is fed into the network, removing information th
 
 The Deep learning model used was based around the architecture reported by Nvidia in their [seminal end to end driving paper](https://arxiv.org/pdf/1604.07316.pdf).
 
+![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/nvidia_model.png?raw=true)
+
 The model architecture show very familiar standard structure for convolutional networks. The rational being the convolutional layers in the first half of the network would learn the optimal feature extraction for the images, with the fully connected layers at the end then learning how to control the car. However in practice this simplified disconnection between the convolutional and fully connected layers of the network is not realistic and there is normally much interdependence.
 
 The structure of the network is listed below along with the implementation of this network using the Keras model API.
@@ -151,6 +153,6 @@ The structure of the network is listed below along with the implementation of th
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjM3MDgxNzcsMzMwMzQ1MjY4LC00MD
-I1NDE2MjIsLTEwNDgwODE0OV19
+eyJoaXN0b3J5IjpbMjI2OTA2NDg0LDMzMDM0NTI2OCwtNDAyNT
+QxNjIyLC0xMDQ4MDgxNDldfQ==
 -->
