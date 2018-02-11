@@ -36,13 +36,13 @@ Once this data has been collected from the driving simulator, the camera images 
 
 The tactics for collecting the data from the simulator was to first drive the car around the track in both clockwise and anti clockwise 10 times each, driving optimally in the centre of the road. After this additional laps were recorded by allowing the car to drive off centre into the roadside and then correcting this behaviour. Having such bad driving examples enriches the training data set to allow the model to be able to recover from bad situations in gets into.
 
-The dataset I collected from driving in the simulator contained a total of **23542** samples. Due to the nature of the track, the vast majority of these data samples con
+The dataset I collected from driving in the simulator contained a total of **23542** samples. Due to the nature of the track, the vast majority of these data samples 
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODcyNzg3MjEsLTQwMjU0MTYyMiwtMT
+eyJoaXN0b3J5IjpbLTE2MDYzODQ3MDUsLTQwMjU0MTYyMiwtMT
 A0ODA4MTQ5XX0=
 -->
