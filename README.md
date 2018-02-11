@@ -36,13 +36,13 @@ Once this data has been collected from the driving simulator, the camera images 
 
 The tactics for collecting the data from the simulator was to first drive the car around the track in both clockwise and anti clockwise 10 times each, driving optimally in the centre of the road. After this additional laps were recorded by allowing the car to drive off centre into the roadside and then correcting this behaviour. Having such bad driving examples enriches the training data set to allow the model to be able to recover from bad situations in gets into.
 
-The dataset I collected from driving in the simulator contained a total of **23542** samples. Due to the nature of the track, the vast majority of these data samples showed steering angles at/or close to 0.0. This highly bias data set could bias the learning algorithm to perform badly for large comers. To reduce this the data set was balanced by selecting
+The dataset I collected from driving in the simulator contained a total of **23542** samples. Due to the nature of the track, the vast majority of these data samples showed steering angles at/or close to 0.0. This highly bias data set could bias the learning algorithm to perform badly for large comers. To reduce this the data set was balanced by sub-sampling the original set to produce a more balanced distribution of steering angles. This balanced data set contained a total of *
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDgzMzg3MDksLTQwMjU0MTYyMiwtMT
-A0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbNTIyNDg2NzgzLC00MDI1NDE2MjIsLTEwND
+gwODE0OV19
 -->
