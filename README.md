@@ -132,6 +132,18 @@ The model architecture show very familiar standard structure for convolutional n
 
 The structure of the network is listed below along with the implementation of this network using the Keras model API.
 
+- Image normalization
+- Convolution: 5x5, filter: 24, strides: 2x2, activation: ELU
+- Convolution: 5x5, filter: 36, strides: 2x2, activation: ELU
+- Convolution: 5x5, filter: 48, strides: 2x2, activation: ELU
+- Convolution: 3x3, filter: 64, strides: 1x1, activation: ELU
+- Convolution: 3x3, filter: 64, strides: 1x1, activation: ELU
+- Drop out (0.5)
+- Fully connected: neurons: 100, activation: ELU
+- Fully connected: neurons:  50, activation: ELU
+- Fully connected: neurons:  10, activation: ELU
+- Fully connected: neurons:   1 (output)
+
 
 
 
@@ -139,6 +151,6 @@ The structure of the network is listed below along with the implementation of th
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMDQ2NDM1MiwzMzAzNDUyNjgsLTQwMj
-U0MTYyMiwtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbLTE2NjM3MDgxNzcsMzMwMzQ1MjY4LC00MD
+I1NDE2MjIsLTEwNDgwODE0OV19
 -->
