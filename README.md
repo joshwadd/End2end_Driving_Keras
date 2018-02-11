@@ -13,7 +13,7 @@ The workflow for building, testing and training the model is composed of followi
 
 | File                         | Description                                                                        |
 | ---------------------------- | ---------------------------------------------------------------------------------- |
-| `DNN_drive_model.py`                    | Builds and trains the CNN with data augmentation and batching of the training data.                  |
+| `model.py`                    | Builds and trains the CNN .                  |
 | `drive.py`                   | Implements a given CNN to control autonomous car in simulator. Communicates in real time with the simulator receiving current camera image and telemetry data, received data is then used by the CNN to generate model predictions for required control signal to send.                    |
 | `model.h5`                 | Model weights saved in Hierarchical Data Format format  containing model architecture Keras understands.             |
 | `video.py`                   | Creates a video based on images found in the output directory produced by running `drive.py`                                                                     |
@@ -192,6 +192,6 @@ This project shows simple deep convolutional architectures are capable  of end t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzE2OTgzMjUsNzMyMzU1NTgsLTQwMj
-U0MTYyMiwtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbMjM5MDg4ODk4LDczMjM1NTU4LC00MDI1ND
+E2MjIsLTEwNDgwODE0OV19
 -->
