@@ -126,7 +126,7 @@ Each image is cropped before it is fed into the network, removing information th
 
 ## Convolution Neural Network Model 
 
-The Deep learning model used was based around the arc
+The Deep learning model used was based around the architecutre
 
 
 
@@ -134,6 +134,6 @@ The Deep learning model used was based around the arc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MDQwNDMyMCwzMzAzNDUyNjgsLTQwMj
-U0MTYyMiwtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbODk3MjA0NzI5LDMzMDM0NTI2OCwtNDAyNT
+QxNjIyLC0xMDQ4MDgxNDldfQ==
 -->
