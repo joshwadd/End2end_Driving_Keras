@@ -110,7 +110,11 @@ def translate_image(image, steering_angle, x_range, y_range):
 The example results of applying this data augmentation pipeline to the three front facing camera images are shown below.
 ![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/Orginal_2_cameras.png?raw=true)
 
- 
+![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/aug1.png?raw=true)
+
+![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/aug1.png?raw=true)
+
+![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/aug1.png?raw=true)
 
 ### Preprocessing
 
@@ -122,6 +126,6 @@ Each image is cropped before it is fed into the network, removing information th
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTM5MTQzODMsMzMwMzQ1MjY4LC00MD
-I1NDE2MjIsLTEwNDgwODE0OV19
+eyJoaXN0b3J5IjpbNDQ1MjA0OTc1LDMzMDM0NTI2OCwtNDAyNT
+QxNjIyLC0xMDQ4MDgxNDldfQ==
 -->
