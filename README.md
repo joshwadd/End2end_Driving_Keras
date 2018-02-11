@@ -179,13 +179,13 @@ model.summary()
 This model was trained on a batch size of 64 using Adam with a learning rate of 1e-4 to optimize the MSE loss between the predicted and actual steering angle. The training data was split so that 20% was set aside as a validation set to detect if the model was overfitting. The model was trained for up to 20 epochs. Dropout was used between the layers of the fully connected layers to reduce over-fitting. The amount of dropout was experimented with to find the best performance.
 
 ## Results and Future Work
-The car manages to drive perfectly on the track and rarely deviates from the middle of the road
+The car manages to drive perfectly on the track and rarely deviates from the middle of the road. 
 
 [![png](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Cover_image.png?raw=true)](https://youtu.be/-Ju_xeOW2VA)
 [Video Link](https://youtu.be/-Ju_xeOW2VAe)
 
 
-This project shows simple  deep convolutional architecture are capable  of end to end learning to drive an autonomous vehicles. Driving a car is inherently a temporal process and therefore the use of a simple feed-forward network is not taking into account any temporal information. For this purpose I am currently exploring the use of combined CNN + RNN (Recurrent neural network) architectures for driving the vehicle in the simulator.
+This project shows simple deep convolutional architectures are capable  of end to end learning to drive an autonomous vehicles. Driving a car is inherently a temporal process and therefore the use of a simple feed-forward network is not taking into account any temporal information. For this purpose I am currently exploring the use of combined CNN + RNN (Recurrent neural network) architectures for driving the vehicle in the simulator.
 
 
 
@@ -193,6 +193,6 @@ This project shows simple  deep convolutional architecture are capable  of end t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMzkwNjYzLDMzMDM0NTI2OCwtNDAyNT
-QxNjIyLC0xMDQ4MDgxNDldfQ==
+eyJoaXN0b3J5IjpbLTY4OTEwNjM1MCwzMzAzNDUyNjgsLTQwMj
+U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
