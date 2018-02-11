@@ -44,10 +44,10 @@ The dataset I collected from driving in the simulator contained a total of **235
 
 ## Data Augmentation and Preprocessing
 
-To prevent the Convoltuional regression 
+To prevent the CNN ar
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTg5ODQxMSwtNDAyNTQxNjIyLC0xMD
-Q4MDgxNDldfQ==
+eyJoaXN0b3J5IjpbODY4ODY4MjExLC00MDI1NDE2MjIsLTEwND
+gwODE0OV19
 -->
