@@ -109,12 +109,12 @@ def translate_image(image, steering_angle, x_range, y_range):
 
 ## # Preprocessing
 
-Each image is cropped before it is fed into the network, removing information that is not useful for steering the car. This is namly the top of the image containing the sky and horizon, and the bottom of the image containing
+Each image is cropped before it is fed into the network, removing information that is not useful for steering the car. This is namly the top of the image containing the sky and horizon, and the bottom of the image containing the 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MjgxMDUyNSwzMzAzNDUyNjgsLTQwMj
-U0MTYyMiwtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbMzE0NDI2MTAsMzMwMzQ1MjY4LC00MDI1ND
+E2MjIsLTEwNDgwODE0OV19
 -->
