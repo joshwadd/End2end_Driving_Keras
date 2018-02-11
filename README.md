@@ -70,7 +70,7 @@ def flip_image(image, steering_angle):
     return image, steering_angle
 ```
 
-* **Add Shadow** : The conventional network will have to be robust to the presents of shadows in the road. For t
+* **Add Shadow** : The conventional network will have to be robust to the presents of shadows in the road. For this p
 
 
 
@@ -78,6 +78,6 @@ def flip_image(image, steering_angle):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0ODg3MDczNCwzMzAzNDUyNjgsLTQwMj
+eyJoaXN0b3J5IjpbLTk4NzEyNTE3MiwzMzAzNDUyNjgsLTQwMj
 U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
