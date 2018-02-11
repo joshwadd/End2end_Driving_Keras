@@ -70,7 +70,34 @@ def flip_image(image, steering_angle):
     return image, steering_angle
 ```
 
-* **Add Shadow** : The conventional network will have to be robust to the presents of shadows in the road. For this purpo
+* **Add Shadow** : The conventional network will have to be robust to the presents of shadows in the road. For this purpose I randomly add shadows to the training data in randomised location
+
+``` python
+ef add_shadow(image):
+    h, w, d = image.shape
+
+    [x1,x2] = np.random.choice(w,2, replace=False)
+    y1 = 0
+    y2 = h
+
+    xm, ym = np.mgrid[0:h, 0:w]
+
+    mask = np.zeros_like(image[:,:,1])
+    mask[(ym - y1)*(x2 - x1) - (y2 - y1)*(xm - x1) > 0] = 1
+
+    # choose which side should have shadow and adjust saturation
+    cond = mask == np.random.randint(2)
+    s_ratio = np.random.uniform(low=0.2, high=0.5)
+
+    # adjust Saturation in HLS(Hue, Light, Saturation)
+    hls = cv2.cvtColor(image, cv2.COLOR_RGB2HLS)
+    hls[:, :, 1][cond] = hls[:, :, 1][cond] * s_ratio
+    return cv2.cvtColor(hls, cv2.COLOR_HLS2RGB)
+
+```
+
+
+* *
 
 
 
@@ -78,6 +105,6 @@ def flip_image(image, steering_angle):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMjM3NzM2MCwzMzAzNDUyNjgsLTQwMj
-U0MTYyMiwtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbLTIxMDYwNzgzNjMsMzMwMzQ1MjY4LC00MD
+I1NDE2MjIsLTEwNDgwODE0OV19
 -->
