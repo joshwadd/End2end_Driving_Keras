@@ -26,23 +26,15 @@ The Udacity simulator contains two separate tracks that differ in both difficult
 ### Data collection mode :
  When running the car in training mode, a human driver controls the car driving around the track. This human driving behaviour is captured by the simulator and saved to disk as a time series comprising of the following components at each time step.
 
-#### Front Facing Camera Images
 
-The car is equipped with three front facing cameras recording images from the left, centre and right views of the front driving view of the car at each time-step. 
+
+The car is equipped with three front facing cameras recording images from the left, centre and right views of the front facing driving view of the car at each time-step. 
 
 
 <img src="https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/left.jpg?raw=true" width="250"/> <img src="https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/Centre.jpg?raw=true" width="250"/> <img src="https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/right.jpg?raw=true" width="250"/>
 
-#### Telemetry 
-
-The following telemetry and control data of the human driving data is recorded at each time step
-
-Steering angle : Single scale variable between 0 - 1
-Throttle :
-Break :
-Speed :
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NTEwNDM2MiwtNDAyNTQxNjIyLC0xMD
+eyJoaXN0b3J5IjpbMTc5MDU5OTk4NSwtNDAyNTQxNjIyLC0xMD
 Q4MDgxNDldfQ==
 -->
