@@ -128,12 +128,14 @@ Each image is cropped before it is fed into the network, removing information th
 
 The Deep learning model used was based around the architecture reported by Nvidia in their [seminal end to end driving paper](https://arxiv.org/pdf/1604.07316.pdf).
 
+The model architecture show very familiar standard structure for convoltional networks.
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2MDQ2NTI4LDMzMDM0NTI2OCwtNDAyNT
-QxNjIyLC0xMDQ4MDgxNDldfQ==
+eyJoaXN0b3J5IjpbMTA0NzYwODM2NSwzMzAzNDUyNjgsLTQwMj
+U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
