@@ -60,8 +60,7 @@ def choose_camera(center, left, right, steering_angle):
     return mpimg.imread(center), steering_angle
 ```
 
-* **Horzontial Flip**
-Randomly flipping the half images along the center and changing the steering angle rids the training data set of bias due to the circular curvature of the track.
+* **Horzontial Flip** : Randomly flipping the half images along the center and changing the steering angle rids the training data set of bias due to the circular curvature of the track.
 ``` python
 def flip_image(image, steering_angle):
     if np.random.rand() < 0.5:
@@ -71,7 +70,7 @@ def flip_image(image, steering_angle):
     return image, steering_angle
 ```
 
-* **Add Shadow**
+* **Add Shadow** : The conventional network will have to be robust to the presents of shadows in the road. For t
 
 
 
@@ -79,6 +78,6 @@ def flip_image(image, steering_angle):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzA2MjM1LDMzMDM0NTI2OCwtNDAyNT
-QxNjIyLC0xMDQ4MDgxNDldfQ==
+eyJoaXN0b3J5IjpbMTg0ODg3MDczNCwzMzAzNDUyNjgsLTQwMj
+U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
