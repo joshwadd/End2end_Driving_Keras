@@ -49,6 +49,9 @@ To prevent the CNN architecture from over-fitting to the training data set and t
 
 * **Camera Selection and Steering Correction** : As images are recorded from 3 front facing cameras on the front of the car, the scene can be viewed through one of three slighting differing perspectives. One of the three cameras is randomly selected and the steering angle is corrected to match this altered perspective.
 
+``` python
+
+```
 
 * asasd
 
@@ -58,6 +61,6 @@ To prevent the CNN architecture from over-fitting to the training data set and t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDAwMDU0LC00MDI1NDE2MjIsLTEwND
+eyJoaXN0b3J5IjpbMzMwMzQ1MjY4LC00MDI1NDE2MjIsLTEwND
 gwODE0OV19
 -->
