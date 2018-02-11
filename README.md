@@ -64,12 +64,14 @@ def choose_camera(center, left, right, steering_angle):
 Randomly flipping the half images along the center and changing the steering angle rids the training data set of bias due to the circular curvature of the track.
 ``` python
 
+`
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzU1NjAzMDUsMzMwMzQ1MjY4LC00MD
-I1NDE2MjIsLTEwNDgwODE0OV19
+eyJoaXN0b3J5IjpbLTczMTk3MjU5MSwzMzAzNDUyNjgsLTQwMj
+U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
