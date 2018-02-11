@@ -141,7 +141,9 @@ The structure of the network is listed below along with the implementation of th
 - Convolution: 3x3, filter: 64, strides: 1x1, activation: ELU
 - Drop out (0.5)
 - Fully connected: neurons: 100, activation: ELU
+- -Drop out(0.5)
 - Fully connected: neurons:  50, activation: ELU
+- -Drop out(0.5)
 - Fully connected: neurons:  10, activation: ELU
 - Fully connected: neurons:   1 (output)
 
@@ -190,6 +192,6 @@ This project shows simple deep convolutional architectures are capable  of end t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NDgyNzQ4LDMzMDM0NTI2OCwtNDAyNT
-QxNjIyLC0xMDQ4MDgxNDldfQ==
+eyJoaXN0b3J5IjpbNzMyMzU1NTgsMzMwMzQ1MjY4LC00MDI1ND
+E2MjIsLTEwNDgwODE0OV19
 -->
