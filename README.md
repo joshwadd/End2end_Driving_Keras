@@ -185,7 +185,7 @@ The car manages to drive perfectly on the track and rarely deviates from the mid
 [Video Link](https://youtu.be/-Ju_xeOW2VAe)
 
 
-This Deep learning approch proves that en
+This Deep learning approach proves that end 
 
 
 
@@ -193,6 +193,6 @@ This Deep learning approch proves that en
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ4NTA2Mzc0LDMzMDM0NTI2OCwtNDAyNT
-QxNjIyLC0xMDQ4MDgxNDldfQ==
+eyJoaXN0b3J5IjpbLTc2OTY2MDM2NSwzMzAzNDUyNjgsLTQwMj
+U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
