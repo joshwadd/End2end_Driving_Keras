@@ -61,6 +61,6 @@ To prevent the CNN architecture from over-fitting to the training data set and t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwMzQ1MjY4LC00MDI1NDE2MjIsLTEwND
-gwODE0OV19
+eyJoaXN0b3J5IjpbLTI0ODkxOTU2OSwzMzAzNDUyNjgsLTQwMj
+U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
