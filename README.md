@@ -48,7 +48,7 @@ To prevent the CNN architecture from over-fitting to the training data set and t
 
 
 
-* Camera selection and steering correction
+..* Camera selection and steering correction
 
 
 
@@ -56,6 +56,6 @@ To prevent the CNN architecture from over-fitting to the training data set and t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzI2OTM3MDYsLTQwMjU0MTYyMiwtMT
+eyJoaXN0b3J5IjpbLTE1ODI5OTAxNTQsLTQwMjU0MTYyMiwtMT
 A0ODA4MTQ5XX0=
 -->
