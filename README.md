@@ -40,11 +40,10 @@ The dataset I collected from driving in the simulator contained a total of **235
 
 ![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/output_images/steering_distributions.png?raw=true)
 
-<p style="text-align:center;"><img src="https://github.com/joshwadd/End2end_Driving_Keras/blob/master/output_images/steering_distributions.png?raw=true" alt="Logo"></p>
-
+<img src="https://github.com/joshwadd/End2end_Driving_Keras/blob/master/output_images/steering_distributions.png?raw=true" alt="Logo">
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzU3NjI4LC00MDI1NDE2MjIsLTEwND
-gwODE0OV19
+eyJoaXN0b3J5IjpbLTM1MDg5MjcwNCwtNDAyNTQxNjIyLC0xMD
+Q4MDgxNDldfQ==
 -->
