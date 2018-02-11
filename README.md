@@ -44,10 +44,10 @@ The dataset I collected from driving in the simulator contained a total of **235
 
 ## Data Augmentation and Preprocessing
 
-To prevent the CNN ar
+To prevent the CNN archi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY4ODY4MjExLC00MDI1NDE2MjIsLTEwND
-gwODE0OV19
+eyJoaXN0b3J5IjpbMjAwOTMwNzAyOSwtNDAyNTQxNjIyLC0xMD
+Q4MDgxNDldfQ==
 -->
