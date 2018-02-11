@@ -179,10 +179,8 @@ model.summary()
 This model was trained on a batch size of 64 using Adam with a learning rate of 1e-4 to optimize the MSE loss between the predicted and actual steering angle. The training data was split so that 20% was set aside as a validation set to detect if the model was overfitting. The model was trained for up to 20 epochs. Dropout was used between the layers of the fully connected layers to reduce over-fitting. The amount of dropout was experimented with to find the best performance.
 
 ## Results
-![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Cover_image.png?raw=true)
 
-
-[![png](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Cover_image.png?raw=true)](https://youtu.be/-Ju_xeOW2VA)
+![png](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Cover_image.png?raw=true)](https://youtu.be/-Ju_xeOW2VA)
 [Video Link](https://youtu.be/-Ju_xeOW2VAe)
 
 
@@ -194,6 +192,6 @@ The
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDAxODk3NzUsMzMwMzQ1MjY4LC00MD
+eyJoaXN0b3J5IjpbLTEyNDM1ODAyODAsMzMwMzQ1MjY4LC00MD
 I1NDE2MjIsLTEwNDgwODE0OV19
 -->
