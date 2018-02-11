@@ -116,9 +116,13 @@ The example results of applying this data augmentation pipeline to the three fro
 
 ![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/aug3.png?raw=true)
 
+The data augmentation pipeline was implemented as a generator function in python
+
 ### Preprocessing
 
-Each image is cropped before it is fed into the network, removing information that is not useful for steering the car. This is namely the top of the image containing the sky and horizon, and the bottom of the image containing the car itself. The input images were normalized to be in the range of [-1, 1] as to assist the training procedure. All preprocesses was done inside of the DNN arhitecture in Keras 
+Each image is cropped before it is fed into the network, removing information that is not useful for steering the car. This is namely the top of the image containing the sky and horizon, and the bottom of the image containing the car itself. The input images were normalized to be in the range of [-1, 1] as to assist the training procedure. All preprocessing was done inside of the DNN architecture in Keras.
+
+
 
 ## Model
 
@@ -128,6 +132,6 @@ Each image is cropped before it is fed into the network, removing information th
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMjc5NjY1NywzMzAzNDUyNjgsLTQwMj
-U0MTYyMiwtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbLTEzNDcyNTAyMjEsMzMwMzQ1MjY4LC00MD
+I1NDE2MjIsLTEwNDgwODE0OV19
 -->
