@@ -107,12 +107,12 @@ def translate_image(image, steering_angle, x_range, y_range):
 ```
 
 
-
+## # Preprocessing
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NjI1OTMyNywzMzAzNDUyNjgsLTQwMj
-U0MTYyMiwtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbLTE3MDU4MTYxODQsMzMwMzQ1MjY4LC00MD
+I1NDE2MjIsLTEwNDgwODE0OV19
 -->
