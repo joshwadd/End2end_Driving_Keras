@@ -41,13 +41,13 @@ The dataset I collected from driving in the simulator contained a total of **235
 ![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/steering_distributions.png?raw=true)
 
 <p align="center">
-	<img src="		(https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/steering_distributions.png?raw=true"/>
+	<img src=" https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/steering_distributions.png?raw=true"/>
 </p>
 
 ## Data au
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNDE5MzcyMCwtNDAyNTQxNjIyLC0xMD
+eyJoaXN0b3J5IjpbLTUzOTA2Nzc2MCwtNDAyNTQxNjIyLC0xMD
 Q4MDgxNDldfQ==
 -->
