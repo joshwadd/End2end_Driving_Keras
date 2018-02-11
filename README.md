@@ -44,10 +44,10 @@ The dataset I collected from driving in the simulator contained a total of **235
 
 ## Data Augmentation and Preprocessing
 
-To prevent the CNN archi
+To prevent the CNN architecture from over-fitting to the training data set and to increase 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwOTMwNzAyOSwtNDAyNTQxNjIyLC0xMD
-Q4MDgxNDldfQ==
+eyJoaXN0b3J5IjpbLTEzNjY1MDMxODMsLTQwMjU0MTYyMiwtMT
+A0ODA4MTQ5XX0=
 -->
