@@ -1,7 +1,4 @@
----
 
-
----
 
 # End 2 End Deep Learning for Autonomous Driving in Keras
 ![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Cover_image.png?raw=true)
@@ -193,6 +190,6 @@ This project shows simple deep convolutional architectures are capable  of end t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4OTEwNjM1MCwzMzAzNDUyNjgsLTQwMj
-U0MTYyMiwtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbMTk0NDgyNzQ4LDMzMDM0NTI2OCwtNDAyNT
+QxNjIyLC0xMDQ4MDgxNDldfQ==
 -->
