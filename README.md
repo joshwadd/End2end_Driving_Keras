@@ -62,7 +62,7 @@ def choose_camera(center, left, right, steering_angle):
 
 * **Horzontial Flip**
 Randomly flipping the half images along the center and changing the steering angle rids the training data set of bias due to the circular curvature of the track.
-
+``` 
 
 
 
@@ -70,6 +70,6 @@ Randomly flipping the half images along the center and changing the steering ang
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNTE3MTgxOSwzMzAzNDUyNjgsLTQwMj
+eyJoaXN0b3J5IjpbLTg5NzIwMDcyNSwzMzAzNDUyNjgsLTQwMj
 U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
