@@ -47,7 +47,7 @@ The dataset I collected from driving in the simulator contained a total of **235
 To prevent the CNN architecture from over-fitting to the training data set and to increase the ability of the model to generalise well to driving encounters it hasn't seen in the training set, a set of data augmentation techniques were used to extend the data-set.
 
 
-* **Camera Selection and Steering Correction** : As images are recorded from 3 front facing cameras on the front of the car
+* **Camera Selection and Steering Correction** : As images are recorded from 3 front facing cameras on the front of the car, the scene can be viewed through one of three slighting differeing persepctives.
 
 * asasd
 
@@ -57,6 +57,6 @@ To prevent the CNN architecture from over-fitting to the training data set and t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODU5MzI4MywtNDAyNTQxNjIyLC0xMD
+eyJoaXN0b3J5IjpbMjE0NDQ2NDMzNCwtNDAyNTQxNjIyLC0xMD
 Q4MDgxNDldfQ==
 -->
