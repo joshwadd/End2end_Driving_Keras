@@ -174,7 +174,7 @@ model.add(Dense(10, activation='elu'))
 model.add(Dense(1))
 model.summary()
 ```
-
+This model was trained using Adam with a learning rate of 1e-4
 
 
 
@@ -182,6 +182,6 @@ model.summary()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwODUyNjkxMywzMzAzNDUyNjgsLTQwMj
+eyJoaXN0b3J5IjpbMTIzOTczMDYwMCwzMzAzNDUyNjgsLTQwMj
 U0MTYyMiwtMTA0ODA4MTQ5XX0=
 -->
