@@ -174,7 +174,11 @@ model.add(Dense(10, activation='elu'))
 model.add(Dense(1))
 model.summary()
 ```
-This model was trained on a batch size of 64 using Adam with a learning rate of 1e-4 to optimize the MSE loss between the predicted and actual steering angle. The training data was split so that 20% was set aside as a validation set to detect w
+This model was trained on a batch size of 64 using Adam with a learning rate of 1e-4 to optimize the MSE loss between the predicted and actual steering angle. The training data was split so that 20% was set aside as a validation set to detect if the model was overfitting. The model was trained for up to 20 epochs.
+
+## Results
+
+
 
 
 
@@ -182,6 +186,6 @@ This model was trained on a batch size of 64 using Adam with a learning rate of 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDQ4MjI5OSwzMzAzNDUyNjgsLTQwMj
-U0MTYyMiwtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbMTI4Mjg0MTkyLDMzMDM0NTI2OCwtNDAyNT
+QxNjIyLC0xMDQ4MDgxNDldfQ==
 -->
