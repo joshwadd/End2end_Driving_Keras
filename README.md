@@ -2,7 +2,7 @@
 Self-Driving Car Engineer Nanodegree Program
 
 ---
-This project aims to build a C++ implementation of a Model Predictive  controller to control the steering and throttle actuation's for an autonomous vechile in the udacity simulation  
+This project aims to build a C++ implementation of a Model Predictive  controller to control the steering and throttle actuation's for an autonomous vehicle in the udacity simulation environment. 
 
 ---
 
@@ -118,7 +118,7 @@ still be compilable with cmake and make./
 A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTI3ODEyOSwtMTMxNDY0NzM3MywyMz
-kwODg4OTgsNzMyMzU1NTgsLTQwMjU0MTYyMiwtMTA0ODA4MTQ5
-XX0=
+eyJoaXN0b3J5IjpbMTEwODQ1MDQ0LC0xMzE0NjQ3MzczLDIzOT
+A4ODg5OCw3MzIzNTU1OCwtNDAyNTQxNjIyLC0xMDQ4MDgxNDld
+fQ==
 -->
