@@ -2,13 +2,15 @@
 Self-Driving Car Engineer Nanodegree Program
 
 ---
-This project aims to build a simple PID controller and tune the associated hyper-parameters to control the steering input for a self driving vehicle within the Udacity simulation environment.
+This project aims to build a C++ implementation of a Model Predictive  controller to control the steering and throttle accuations for a vechcile 
 
 ---
 
 ## Rubric points
 
-### 
+### The model :
+
+The Mo
 
 
 ## Dependencies
@@ -116,7 +118,7 @@ still be compilable with cmake and make./
 A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODk0NDQ4MCwtMTMxNDY0NzM3MywyMz
+eyJoaXN0b3J5IjpbMTI4NzU3NTk2NiwtMTMxNDY0NzM3MywyMz
 kwODg4OTgsNzMyMzU1NTgsLTQwMjU0MTYyMiwtMTA0ODA4MTQ5
 XX0=
 -->
