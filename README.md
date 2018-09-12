@@ -1,197 +1,117 @@
+# CarND-Controls-MPC
+Self-Driving Car Engineer Nanodegree Program
+
+---
+This project aims to build a simple PID controller and tune the associated hyper-parameters to control the steering input for a self driving vehicle within the Udacity simulation environment.
+
+---
 
 
-# End 2 End Deep Learning for Autonomous Driving in Keras
-![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Cover_image.png?raw=true)
+## Dependencies
 
-In this project, I use convolutional deep neural networks to clone driving behavior by training end to end from input camera images to output steering command to an autonomous vehicle. Keras is using for training, validating and testing the model.</p>
-The Udacity Self-Driving Car simulator was used for acquiring training data sets of human driving behavior around test tracks. The convolutional neural network was then trained to map input images to steering angles as a regression problem. Once the model has learnt these mappings arising from human behavior it can be used to generate new steering angles online to control the autonomous vehicle in the simulator.
-## Project Files
+* cmake >= 3.5
+ * All OSes: [click here for installation instructions](https://cmake.org/install/)
+* make >= 4.1(mac, linux), 3.81(Windows)
+  * Linux: make is installed by default on most Linux distros
+  * Mac: [install Xcode command line tools to get make](https://developer.apple.com/xcode/features/)
+  * Windows: [Click here for installation instructions](http://gnuwin32.sourceforge.net/packages/make.htm)
+* gcc/g++ >= 5.4
+  * Linux: gcc / g++ is installed by default on most Linux distros
+  * Mac: same deal as make - [install Xcode command line tools]((https://developer.apple.com/xcode/features/)
+  * Windows: recommend using [MinGW](http://www.mingw.org/)
+* [uWebSockets](https://github.com/uWebSockets/uWebSockets)
+  * Run either `install-mac.sh` or `install-ubuntu.sh`.
+  * If you install from source, checkout to commit `e94b6e1`, i.e.
+    ```
+    git clone https://github.com/uWebSockets/uWebSockets
+    cd uWebSockets
+    git checkout e94b6e1
+    ```
+    Some function signatures have changed in v0.14.x. See [this PR](https://github.com/udacity/CarND-MPC-Project/pull/3) for more details.
 
-The workflow for building, testing and training the model is composed of following files
-
-
-
-| File                         | Description                                                                        |
-| ---------------------------- | ---------------------------------------------------------------------------------- |
-| `model.py`                    | Builds and trains the CNN .                  |
-| `drive.py`                   | Implements a given CNN to control autonomous car in simulator. Communicates in real time with the simulator receiving current camera image and telemetry data, received data is then used by the CNN to generate model predictions for required control signal to send.                    |
-| `model.h5`                 | Model weights saved in Hierarchical Data Format format  containing model architecture Keras understands.             |
-| `video.py`                   | Creates a video based on images found in the output directory produced by running `drive.py`                                                                     |
-
-## Data Collection, Augmentation and Preprocessing
-
-The Udacity simulator contains two separate tracks that differ in both difficulty and visual properties of the environment. On both tracks the simulated autonomous car can be operated in either training mode for data collection, or autnomous mode with the CNN generating control signals in real time.
-
-### Data Collection :
- When running the car in training mode, a human driver controls the car driving around the track. This human driving behaviour is captured by the simulator and saved to disk as a time series comprising of the following components at each time step.
-
-The car is equipped with three front facing cameras recording images from the left, centre and right views of the front facing driving view of the car at each time-step.  The driving simulator then saves frames from the three cameras alongside various measurements of the driving behaviour such as **throttle**, **speed** and **steering angle**.
-
-
-<img src="https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/left.jpg?raw=true" width="250"/> <img src="https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/Centre.jpg?raw=true" width="250"/> <img src="https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/right.jpg?raw=true" width="250"/>
+* **Ipopt and CppAD:** Please refer to [this document](https://github.com/udacity/CarND-MPC-Project/blob/master/install_Ipopt_CppAD.md) for installation instructions.
+* [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page). This is already part of the repo so you shouldn't have to worry about it.
+* Simulator. You can download these from the [releases tab](https://github.com/udacity/self-driving-car-sim/releases).
+* Not a dependency but read the [DATA.md](./DATA.md) for a description of the data sent back from the simulator.
 
 
-Once this data has been collected from the driving simulator, the camera images are used as an input to the deep learning model which attempts to predict the steering angle for the corresponding input in the range [-1, 1].
+## Basic Build Instructions
 
-The tactics for collecting the data from the simulator was to first drive the car around the track in both clockwise and anti clockwise 10 times each, driving optimally in the centre of the road. After this additional laps were recorded by allowing the car to drive off centre into the roadside and then correcting this behaviour. Having such bad driving examples enriches the training data set to allow the model to be able to recover from bad situations in gets into.
+1. Clone this repo.
+2. Make a build directory: `mkdir build && cd build`
+3. Compile: `cmake .. && make`
+4. Run it: `./mpc`.
 
-The dataset I collected from driving in the simulator contained a total of **23542** samples. Due to the nature of the track, the vast majority of these data samples showed steering angles at/or close to 0.0. This highly bias data set could bias the learning algorithm to perform badly for large comers. To reduce this the data set was balanced by sub-sampling the original set to produce a more balanced distribution of steering angles. This balanced data set contained a total of **7389** samples.
+## Tips
 
+1. It's recommended to test the MPC on basic examples to see if your implementation behaves as desired. One possible example
+is the vehicle starting offset of a straight line (reference). If the MPC implementation is correct, after some number of timesteps
+(not too many) it should find and track the reference line.
+2. The `lake_track_waypoints.csv` file has the waypoints of the lake track. You could use this to fit polynomials and points and see of how well your model tracks curve. NOTE: This file might be not completely in sync with the simulator so your solution should NOT depend on it.
+3. For visualization this C++ [matplotlib wrapper](https://github.com/lava/matplotlib-cpp) could be helpful.)
+4.  Tips for setting up your environment are available [here](https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/0949fca6-b379-42af-a919-ee50aa304e6a/lessons/f758c44c-5e40-4e01-93b5-1a82aa4e044f/concepts/23d376c7-0195-4276-bdf0-e02f1f3c665d)
+5. **VM Latency:** Some students have reported differences in behavior using VM's ostensibly a result of latency.  Please let us know if issues arise as a result of a VM environment.
 
-![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/steering_distributions.png?raw=true")
+## Editor Settings
 
+We've purposefully kept editor configuration files out of this repo in order to
+keep it as simple and environment agnostic as possible. However, we recommend
+using the following settings:
 
-### Data Augmentation :
+* indent using spaces
+* set tab width to 2 spaces (keeps the matrices in source code aligned)
 
-To prevent the CNN architecture from over-fitting to the training data set and to increase the ability of the model to generalise well to driving encounters it hasn't seen in the training set, a set of data augmentation techniques were used to extend the data-set.
+## Code Style
 
+Please (do your best to) stick to [Google's C++ style guide](https://google.github.io/styleguide/cppguide.html).
 
-* **Camera Selection and Steering Correction** : As images are recorded from 3 front facing cameras on the front of the car, the scene can be viewed through one of three slighting differing perspectives. One of the three cameras is randomly selected and the steering angle is corrected to match this altered perspective.
+## Project Instructions and Rubric
 
-``` python
-def choose_camera(center, left, right, steering_angle):
-    choice = np.random.choice(3)
-    if choice == 0:
-        return mpimg.imread(left), steering_angle + steering_correction
-    elif choice ==1:
-        return mpimg.imread(right), steering_angle - steering_correction
+Note: regardless of the changes you make, your project must be buildable using
+cmake and make!
 
-    return mpimg.imread(center), steering_angle
-```
+More information is only accessible by people who are already enrolled in Term 2
+of CarND. If you are enrolled, see [the project page](https://classroom.udacity.com/nanodegrees/nd013/parts/40f38239-66b6-46ec-ae68-03afd8a601c8/modules/f1820894-8322-4bb3-81aa-b26b3c6dcbaf/lessons/b1ff3be0-c904-438e-aad3-2b5379f0e0c3/concepts/1a2255a0-e23c-44cf-8d41-39b8a3c8264a)
+for instructions and the project rubric.
 
-* **Horzontial Flip** : Randomly flipping the half images along the center and changing the steering angle rids the training data set of bias due to the circular curvature of the track.
-``` python
-def flip_image(image, steering_angle):
-    if np.random.rand() < 0.5:
-        cv2.flip(image, 1)
-        steering_angle = -steering_angle
-    return image, steering_angle
-```
+## Hints!
 
-* **Add Shadow** : The conventional network will have to be robust to the presents of shadows in the road. For this purpose I randomly add shadows to the training data in randomised location
+* You don't have to follow this directory structure, but if you do, your work
+  will span all of the .cpp files here. Keep an eye out for TODOs.
 
-``` python
-ef add_shadow(image):
-    h, w, d = image.shape
-    [x1,x2] = np.random.choice(w,2, replace=False)
-    y1 = 0
-    y2 = h
-    xm, ym = np.mgrid[0:h, 0:w]
-    mask = np.zeros_like(image[:,:,1])
-    mask[(ym - y1)*(x2 - x1) - (y2 - y1)*(xm - x1) > 0] = 1
+## Call for IDE Profiles Pull Requests
 
-    # choose which side should have shadow and adjust saturation
-    cond = mask == np.random.randint(2)
-    s_ratio = np.random.uniform(low=0.2, high=0.5)
+Help your fellow students!
 
-    # adjust Saturation in HLS(Hue, Light, Saturation)
-    hls = cv2.cvtColor(image, cv2.COLOR_RGB2HLS)
-    hls[:, :, 1][cond] = hls[:, :, 1][cond] * s_ratio
-    return cv2.cvtColor(hls, cv2.COLOR_HLS2RGB)
-```
+We decided to create Makefiles with cmake to keep this project as platform
+agnostic as possible. Similarly, we omitted IDE profiles in order to we ensure
+that students don't feel pressured to use one IDE or another.
 
+However! I'd love to help people get up and running with their IDEs of choice.
+If you've created a profile for an IDE that you think other students would
+appreciate, we'd love to have you add the requisite profile files and
+instructions to ide_profiles/. For example if you wanted to add a VS Code
+profile, you'd add:
 
-* **Translate Image** : The image is randomly translated horizontally and vertically and the steering angle is then corrected for this.
-``` python
-def translate_image(image, steering_angle, x_range, y_range):
+* /ide_profiles/vscode/.vscode
+* /ide_profiles/vscode/README.md
 
-    translate_x = x_range * (np.random.rand() - 0.5)
-    translate_y = y_range * (np.random.rand() - 0.5)
+The README should explain what the profile does, how to take advantage of it,
+and how to install it.
 
-    steering_angle += translate_x*0.002 #add a small amount of noise
-    translation_matrix = np.float32([[1, 0, translate_x],[0, 1, translate_y]])
-    height, width, depth = image.shape
-    image = cv2.warpAffine(image, translation_matrix, (width, height))
-    return image, steering_angle
-```
+Frankly, I've never been involved in a project with multiple IDE profiles
+before. I believe the best way to handle this would be to keep them out of the
+repo root to avoid clutter. My expectation is that most profiles will include
+instructions to copy files to a new location to get picked up by the IDE, but
+that's just a guess.
 
+One last note here: regardless of the IDE used, every submitted project must
+still be compilable with cmake and make./
 
-The example results of applying this data augmentation pipeline to the three front facing camera images are shown below.
-![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/Orginal_2_cameras.png?raw=true)
-
-![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/aug1.png?raw=true)
-
-![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/aug2.png?raw=true)
-
-![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/aug3.png?raw=true)
-
-The data augmentation pipeline was implemented as a generator function in python. Keras allows the use of generator functions to be used heterogeneous manner on the CPU whilst the computing gradients via propagation is performed on the GPU. The generator pipeline can be found in the `data.py` file in the `generator()` function.
-
-### Preprocessing
-
-Each image is cropped before it is fed into the network, removing information that is not useful for steering the car. This is namely the top of the image containing the sky and horizon, and the bottom of the image containing the car itself. The input images were normalized to be in the range of [-1, 1] as to assist the training procedure. All preprocessing was done inside of the DNN architecture in Keras.
-
-
-
-## Convolution Neural Network Model 
-
-The Deep learning model used was based around the architecture reported by Nvidia in their [seminal end to end driving paper](https://arxiv.org/pdf/1604.07316.pdf).
-
-![](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Images/nvidia_model.png?raw=true)
-
-The model architecture show very familiar standard structure for convolutional networks. The rational being the convolutional layers in the first half of the network would learn the optimal feature extraction for the images, with the fully connected layers at the end then learning how to control the car. However in practice this simplified disconnection between the convolutional and fully connected layers of the network is not realistic and there is normally much interdependence.
-
-The structure of the network is listed below along with the implementation of this network using the Keras model API.
-
-- Image normalization
-- Convolution: 5x5, filter: 24, strides: 2x2, activation: ELU
-- Convolution: 5x5, filter: 36, strides: 2x2, activation: ELU
-- Convolution: 5x5, filter: 48, strides: 2x2, activation: ELU
-- Convolution: 3x3, filter: 64, strides: 1x1, activation: ELU
-- Convolution: 3x3, filter: 64, strides: 1x1, activation: ELU
-- Drop out (0.5)
-- Fully connected: neurons: 100, activation: ELU
-- -Drop out(0.5)
-- Fully connected: neurons:  50, activation: ELU
-- -Drop out(0.5)
-- Fully connected: neurons:  10, activation: ELU
-- Fully connected: neurons:   1 (output)
-
-``` python
-from keras.models import Sequential
-from keras.layers import Lambda, Conv2D, Dropout, Flatten, Dense, Cropping2D
-#from keras.layers.wrappers import  TimeDistributed
-#from keras.layers.recurrent import LSTM
-from keras import optimizers
-from keras.callbacks import ModelCheckpoint
-
-model = Sequential()
-##Nvidia CNN style model
-model.add(Lambda(lambda x: x/127.5 -1.0, input_shape=training_image_size) )
-model.add(Cropping2D(cropping=((50,20), (0,0))))
-model.add(Conv2D(24, (5, 5) , activation='elu', strides=(2,2), padding='valid'))
-model.add(Conv2D(36, (5, 5) , activation='elu', strides=(2,2), padding='valid'))
-model.add(Conv2D(48, (3, 3) , activation='elu', strides=(2,2), padding='valid'))
-model.add(Conv2D(64, (3, 3) , activation='elu'))
-model.add(Conv2D(64, (3, 3) , activation='elu'))
-model.add((Dropout(drop_prob)))
-model.add(Flatten())
-##Fully connected layers
-model.add(Dense(100, activation='elu'))
-model.add(Dropout(drop_prob))
-model.add(Dense(50, activation='elu'))
-model.add(Dropout(drop_prob))
-model.add(Dense(10, activation='elu'))
-model.add(Dense(1))
-model.summary()
-```
-This model was trained on a batch size of 64 using Adam with a learning rate of 1e-4 to optimize the MSE loss between the predicted and actual steering angle. The training data was split so that 20% was set aside as a validation set to detect if the model was overfitting. The model was trained for up to 20 epochs. Dropout was used between the layers of the fully connected layers to reduce over-fitting. The amount of dropout was experimented with to find the best performance.
-
-## Results and Future Work
-The car manages to drive perfectly on the track and rarely deviates from the middle of the road. 
-
-[![png](https://github.com/joshwadd/End2end_Driving_Keras/blob/master/Cover_image.png?raw=true)](https://youtu.be/-Ju_xeOW2VA)
-[Video Link](https://youtu.be/-Ju_xeOW2VAe)
-
-
-This project shows simple deep convolutional architectures are capable  of end to end learning to drive an autonomous vehicles. Driving a car is inherently a temporal process and therefore the use of a simple feed-forward network is not taking into account any temporal information. For this purpose I am currently exploring the use of combined CNN + RNN (Recurrent neural network) architectures for driving the vehicle in the simulator.
-
-
-
-
-
+## How to write a README
+A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTIwMTg0NzQsMjM5MDg4ODk4LDczMj
-M1NTU4LC00MDI1NDE2MjIsLTEwNDgwODE0OV19
+eyJoaXN0b3J5IjpbNjU2NjU2NDUzLDIzOTA4ODg5OCw3MzIzNT
+U1OCwtNDAyNTQxNjIyLC0xMDQ4MDgxNDldfQ==
 -->
