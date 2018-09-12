@@ -12,11 +12,12 @@ This project aims to build a C++ implementation of a Model Predictive  controlle
 
 The kinematic model used in the MPC was composed of a state space made up of
 
-* x position
-* y postion
-* orientation angle (psi)
-* velocity 
-* Cros
+* X position
+* Y postion
+* Orientation angle (psi)
+* Velocity 
+* Cross track error (cte)
+* Orientation angle error (epsi)
 
 
 ## Dependencies
@@ -124,7 +125,7 @@ still be compilable with cmake and make./
 A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDIzNzg2NCwtMTMxNDY0NzM3MywyMz
+eyJoaXN0b3J5IjpbMTI3NTE3MDEzNiwtMTMxNDY0NzM3MywyMz
 kwODg4OTgsNzMyMzU1NTgsLTQwMjU0MTYyMiwtMTA0ODA4MTQ5
 XX0=
 -->
