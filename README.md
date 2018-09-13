@@ -24,6 +24,8 @@ The kinematic model assumes the following actuator inputs are input to the model
 * Steering angle (delta)
 * Acceleration (a)
 
+The kinematic model then 
+
 
 ## Dependencies
 
@@ -130,7 +132,7 @@ still be compilable with cmake and make./
 A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDczODQwMTQsMTI3NTE3MDEzNiwtMT
-MxNDY0NzM3MywyMzkwODg4OTgsNzMyMzU1NTgsLTQwMjU0MTYy
-MiwtMTA0ODA4MTQ5XX0=
+eyJoaXN0b3J5IjpbNTA3OTE4MzYsMTI3NTE3MDEzNiwtMTMxND
+Y0NzM3MywyMzkwODg4OTgsNzMyMzU1NTgsLTQwMjU0MTYyMiwt
+MTA0ODA4MTQ5XX0=
 -->
