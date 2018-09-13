@@ -19,7 +19,10 @@ The kinematic model used in the MPC was composed of a state space made up of
 * Cross track error (cte)
 * Orientation angle error (epsi)
 
-The kinematic model assumes the following input aachuations 
+The kinematic model assumes the following actuator inputs are input to the model and can be used to evolve the state over time t.
+
+* steering angle (delta)
+* 
 
 
 ## Dependencies
@@ -127,7 +130,7 @@ still be compilable with cmake and make./
 A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIwNjc0MTA4LDEyNzUxNzAxMzYsLTEzMT
+eyJoaXN0b3J5IjpbOTY1MDMyNDMyLDEyNzUxNzAxMzYsLTEzMT
 Q2NDczNzMsMjM5MDg4ODk4LDczMjM1NTU4LC00MDI1NDE2MjIs
 LTEwNDgwODE0OV19
 -->
